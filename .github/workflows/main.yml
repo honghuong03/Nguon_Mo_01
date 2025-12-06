@@ -13,9 +13,9 @@ jobs:
       - name: Sync backend to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ${{ secrets.FTP_HOST_BACK }}
-          port: ${{ secrets.FTP_PORT_BACK }}
-          username: ${{ secrets.FTP_USERNAME_BACK }}
-          password: ${{ secrets.FTP_PASSWORD_BACK }}
+          server: ${{ secrets.FTP_HOST }}
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: ${{ secrets.FTP_REMOTE_PATH_BACK }}
+          server-dir: ${{ secrets.FTP_REMOTE_PATH }}
