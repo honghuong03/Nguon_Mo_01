@@ -1,6 +1,6 @@
 <?php	
-define("HOST", "localhost");
-define("DATABASE", "bookstore_vn");
-define("USERNAME", "root");
-define("PASSWORD", "");
+define("HOST", "sql113.infinityfree.com");
+define("DATABASE", "if0_40557505_1");
+define("USERNAME", "if0_40557505");
+define("PASSWORD", "Honghuong12345");
 
