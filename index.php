@@ -20,7 +20,7 @@ catch(Exception $e)
 <title>Trang chủ....</title>
 </head>
 
-<body> <h1>Noi dung moi day ne</h1>
+<body> <h1>Noi dung moi</h1>
 	<div id="container">
     	<?php
 		$sql="select * from sach ";
